@@ -1,0 +1,118 @@
+# Biodiversity {#biodiversity .section-break data-menu-title="Biodiversity" background-color="#a47823"}
+
+::: {.notes}
+... the second type summarises biodiversity. These are based on species occurrence records - so, records of a taxon detected in a particular time and place. In aggregate, these data represent our understanding of biodiversity
+:::
+
+
+## Aggregated Biodiversity Data {#biodiv-table .std data-menu-title="Biodiversity Table" chalkboard-buttons=true}
+
+```{r}
+
+library(gt)
+source("scripts/functions.R")
+
+readRDS("data/biodiv_tbl.rds") |> 
+  gt() |> 
+  gt_theme() |> 
+  tab_options(table.font.size = 19,
+              column_labels.font.size = 24,
+              data_row.padding = 1.5) |> 
+  as_raw_html()
+
+```
+
+::: {.notes}
+So we've produced a dataset that comprises counts of species from 1900 onwards, and a number of derived datasets that describe the state of threatened species, invasive species, and the use of protected areas in both terrestrial and marine regions. This is a sample of what the aggregated dataset looks like - there's information on .... 
+This makes it possible to ask questions at different spatial, temporal, and taxonomic levels. I'll start with an example of a single species. 
+:::
+
+
+## Channel-billed Cuckoo {#CBC .std-mid data-menu-title="Channel-billed Cuckoo"}
+
+[Scythrops novaehollandiae]{.yellow-italics-mid} 
+
+![](images/cuckoo.png){.absolute width=582 height=900 right=10 top=0}
+[Image from the Biodiversity Heritage Library; contributed by Smithsonian Libraries]{.citation}
+
+::: {.notes}
+This is the channel-billed cuckoo, which has a fairly wide distribution across northern and eastern Australia. It's also the world's largest brood parasite. 
+:::
+
+
+## Channel-billed Cuckoo {#CBC-records .std data-menu-title="Channel-billed Cuckoo Records" auto-animate=true}
+
+![](images/cbc_records.png){fig-align="center"}
+
+::: {.notes}
+There are just over 69,000 records of CBCs in the dataset, and this figure shows the number of records each year since 1970. There's a clear upward trend across the years
+:::
+
+
+## Channel-billed Cuckoo {#CBC-regions .std data-menu-title="Channel-billed Cuckoo Regions" auto-animate=true}
+
+![](images/cbc_records.png){.absolute left=50 width="700" height="700"}
+![](images/cbc_regions.png){.absolute right=50 width="700" height="700"}
+
+::: {.notes}
+We can also look at where the records are from - the figure on the right shows the number of terrestrial bioregions with records, over the same time period. The fact that it's being seen in an increasing number of regions suggests that the species could be expanding in range. 
+:::
+
+## Channel-billed Cuckoo {#CBC-range .std data-menu-title="Channel-billed Cuckoo Range" auto-animate=true}
+
+![](images/cbc_records.png){.absolute top=100 left=100 width="375" height="375"}
+![](images/cbc_regions.png){.absolute bottom=10 left=100 width="375" height="375"}
+![](images/cbc_range.gif){.absolute top=50 right=100 width="800" height="800"}
+
+::: {.notes}
+If we map this across the five decades, we can get a better idea of where the expansion is occurring - here it looks like the cuckoo is spreading southward. It's not unusual for individuals to move around, but changes in the range of a species may indicate that species are responding to disturbances like climate change, and these data have the potential to provide some insight into these sorts of species-level changes. We can also use these data to understand what's happening with groups of species...
+:::
+
+
+## Invasive and Introduced Species {#invasive-spp .std data-menu-title="Invasive Species"}
+
+![](images/heatmap.png){.absolute top=50 width="1600"}
+
+::: {.notes}
+... here I've pulled out information on species classified as introduced or invasive. The heatmap shows terrestrial regions in columns, and 5 year time periods in rows. The colours represent the proportion of introduced and invsive species for each segemnt of time and space, relative to the total number of species. The darker colours represent higher proportions. And this can be extended to other regions, like marine bioregions, or other types of species, like threatened species. 
+:::
+
+
+
+
+
+
+
+
+
+## Protected Areas {#pa-01 .std data-menu-title="Protected Area Network"}
+
+![](images/protected_area_map.png){.absolute left=50 top=50 width="1400"}
+
+[not shown: Heard Island and McDonald Islands Marine Reserve]{.blue-italics}
+
+::: {.notes}
+These datasets also cross-reference occurrences with regards to the protected area network, which includes the National Reserve System and Marine Protected Areas. This shows the extent of the network, with marine and terrestrial protected areas shown in darker shades. 
+:::
+
+
+
+## Comb Wrasse {#wrasse .std data-menu-title="Comb Wrasse" background-image="images/wrasse.png" background-size="contain"}
+
+[Coris picta]{.yellow-italics} 
+
+[Image from the Biodiversity Heritage Library; contributed by Harvard University]{.citation}
+
+::: {.notes}
+To show how we could use this information, I've pulled out records of the comb wrasse. It's found in coastal and offshore rocky reefs, between southern Queensland to southern New South Wales, and there are just under a thousand recirds of it in our dataset
+:::
+
+
+
+## Comb Wrasse Records in Protected Areas {#pa-02 .std data-menu-title="Records in Protected Ares"}
+
+![](images/wrasse_points.png){fig-align="center"}
+
+::: {.notes}
+Over 60% of those records come from protected areas. To put this in context, the protected area network only covers about 20% of the Australian landmass, which suggests that the wrasse may be dispropotionately using protected areas. More broadly, 12% of all species in our datasets have only ever been recorded in protected areas. So this can be a useful facet to include when we think about how to manage species. 
+:::

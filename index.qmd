@@ -1,0 +1,62 @@
+---
+pagetitle: "EcoAssets"
+format:
+  revealjs: 
+    theme: custom.scss
+    height: 900
+    width: 1600
+    highlight-style: a11y
+    menu: false
+    chalkboard: 
+      buttons: false
+editor: visual
+---
+
+##  {#title data-menu-title="Title" background-image="images/title.png"}
+
+
+[EcoAssets: <br> Streamlining access to data from Australian environmental research infrastructures]{.title} [Shandiya Balasubramaniam <br> {{< fa brands twitter >}} \@ShandiyaB <br> Ecological Society of Australia 2023]{.subtitle}
+
+
+##  {#acknowledgement data-menu-title="Acknowledgement"}
+
+[I acknowledge the Traditional Owners of the lands on which we meet, the Larrakia people, as well as the Traditional Owners of the lands on which I live and work, the Wurundjeri people of the Kulin Nation. I pay my respects to their Elders past and present. I recognise the spiritual and cultural significance of land, water, and all that is in the environment to Traditional Owners, and their continuing connection to Country.]{.acknowledgement}
+
+![](images/ack_ridges.png){.absolute bottom="10px" width="1500px"}
+
+
+{{< include _1-ecoassets.qmd >}}
+
+{{< include _2-monitoring.qmd >}}
+
+{{< include _3-biodiversity.qmd >}}
+
+{{< include _4-considerations.qmd >}}
+
+
+##  {#ecoassets-url .links data-menu-title="EcoAssets URL" background-image="images/bckgrnd.png"}
+
+::: {.columns .v-center-container}
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+[ecoassets.org.au](https://ecoassets.org.au)
+:::
+:::
+
+::: {.notes}
+That was a whirlwind tour of many months of work - there's much much more to the datasets, and if you'd like to check them out yourself, this is the website where they can be downloaded. 
+:::
+
+
+##  {#final data-menu-title="Final" background-image="images/bckgrnd.png"}
+
+[<br><br> Shandiya Balasubramaniam <br> Data Analyst, Decision Support Program Lead <br> Science & Decision Support, ALA <br> {{< fa envelope >}} shandiya.balasubramaniam\@csiro.au <br> {{< fa brands twitter >}} \@ShandiyaB <br> {{< fa brands github >}} shandiya <br> <br> Slides: [shandiya.quarto.pub/esa2023](https://shandiya.quarto.pub/esa2023/)]{.final}
+
+
+![](images/logos_grped.png){fig-align="right" width="35%"}
+
+::: notes
+ And if you'd like to take another look at anything, the link to the slides is there. Thank you. 
+:::

@@ -1,0 +1,51 @@
+# Monitoring {#monitoring .section-break data-menu-title="Monitoring Effort" background-color="#a47823"}
+
+::: {.notes}
+The first type of datasets relates to monitoring effort across the country
+:::
+
+
+## {#quote .std data-menu-title="Quote"}
+
+[One of the challenges in compiling State of the Environment Report chapters is that studies are often place-based, meaning that compiling a truly national picture requires integrating separate studies, often conducted using different methods, and with gaps between them.]{.quote}
+
+[- Dr Dan Metcalfe, CSIRO and State of the Environment reports 2016 & 2021 chapter author]{.quote-author}
+["]{.quotation-mark}
+ 
+
+::: {.notes}
+One of the points that was raised about state of the environment reporting, which you'll see on the slide here, is pertinent to our understanding of national monitoring effort. Studies are often place-based, short term, and use different terminologies, so integrating them to get a national snapshot is challenging. EcoAssets has compiled monitoring datasets from the ALA, TERN, and IMOS, and mapped them to a common vocabulary to facilitate comparison of survey effort across time and space. These datasets go from 2010 to 2022, and include data from TERN monitoring stations across the country, IMOS marine surveys, and other systematic surveys from the ALA, where there was a clearly defined event ID and sampling protocol, as well as date and location. 
+:::
+
+
+## Aggregated Monitoring Data {#monit-table .std data-menu-title="Monitoring Table" chalkboard-buttons=true}
+
+
+```{r}
+
+library(gt)
+source("scripts/functions.R")
+
+readRDS("data/monit_tbl.rds") |> 
+  head() |> 
+  gt() |> 
+  gt_theme() |> 
+  tab_options(table.font.size = 19,
+              column_labels.font.size = 24,
+              data_row.padding = 1.5) |> 
+  as_raw_html()
+
+```
+
+::: {.notes}
+This is a sample of what the aggregated dataset looks like: on the left is information about where the data is from and some associated keywords, in the middle we've included information about survey data and location, and cross-referenced this against spatial layers that tell you which state or territory the survey was in, and whether it intersected with terrestrial or marine bioregions, and on the right is where we've mapped it all to a common vocabulary. As you progress towards the right, the values in the columns get more specific, so it lets you look for information at different hierarchical levels. For instance, if I were only interested in bird surveys, I could just filter on this column for birds. 
+:::
+
+## {#choropleth .std data-menu-title="Monitoring GIF"}
+
+![](images/monitoring.gif){fig-align="center"}
+
+::: {.notes}
+For example, here I've chosen biological monitoring events only, and mapped the number of surveys in each terrestrial region, for every year. These maps highlight the vast difference in monitoring effort across regions - some areas are consistently surveyed every year, like parts of South Australia, whereas other areas appear to be data-deficient, whether due an actual lack of monitoring or because EcoAssets doesn't have that information. 
+So that's the first type of datasets we've produced, ...
+:::

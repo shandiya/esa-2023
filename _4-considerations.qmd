@@ -1,0 +1,32 @@
+# Considerations {#considerations .section-break data-menu-title="Considerations" background-color="#a47823"} 
+
+::: {.notes}
+Aggregating millions of records from a diverse range of sources is inevitably going to result in some degree of error, with uneven levels of coverage, completeness, and methodology. Where possible, we've tried to compensate for this. There are 2 things in particular that I wanted to highlight today: the first is that we've excluded records if an organism was not identified to at least the rank of species, but this biases the data towards taxonomic groups that are well studied. It's impossible to eliminate this but aggregating records means that the bias should be consistent across regions and time periods. 
+:::
+
+
+## Record Types {#bor-01 .std data-menu-title="Collections"} 
+
+![](images/coll.png){fig-align="center"}
+
+
+::: {.notes}
+And the second thing to note is that our evidence for the occurrence of a species has also changed over time. For much of the 20th century, this evidence came from museum specimens. 
+:::
+
+## Record Types {#bor-02 .std data-menu-title="Human Observations"} 
+
+![](images/hobs.png){fig-align="center"}
+
+::: {.notes}
+More recently, this has changed in favour of human observations, which includes data collected by ecologists, field monitoring programs, and, increasingly, citizen science projects. This has changed the likelihood of a species being recorded. Some species are only ever recorded by specialists working in collections, whereas common species are probably going to be under-recorded in collections.
+:::
+
+
+## Record Types {#bor-03 .std data-menu-title="Machine Observations"} 
+
+![](images/mobs.png){fig-align="center"}
+
+::: {.notes}
+Another record type is machine observations, which includes images from camera traps and acoustic recordings. These currently make up a small proportion of the overall records, but it's likely that they will soon become more prevalent. Records in the aggregated datasets we've created are separated by the basis of record field, which allows users to make judgements about which types of records to include in any analysis.   
+:::

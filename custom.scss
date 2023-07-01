@@ -1,0 +1,173 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+// fonts
+$font-family-monospace: 'Fira Code', monospace;
+$font-family: 'League Spartan', sans-serif;
+$font-family: 'Rammetto One', cursive;
+$font-family: 'Lato', sans-serif;
+
+
+// colours
+$body-bg: #fffaf3;
+$body-color: #273b50;
+$link-color: #7E98A8;
+
+
+/*-- scss:rules --*/
+
+.reveal .title {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-size: 1.8em;
+  font-weight: 200;
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+  text-align: left;
+}
+
+.reveal .subtitle {
+  font-family: 'League Spartan', sans-serif;
+  color: #7E98A8;
+  font-size: 1.2em;
+  font-weight: 200;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  text-align: left;
+}
+
+.reveal .acknowledgement {
+  font-family: 'League Spartan', sans-serif;
+  color: #a47823;
+  font-weight: 100;
+  font-style: italic;
+  position: absolute;
+  left: 60px;
+  right: 60px;
+  top: 100px;
+  text-align: justify;
+}
+
+.reveal .section-break h1 {
+  font-family: 'Rammetto One', cursive;
+  color: #fffaf3;
+  font-size: 3em;
+}
+
+.reveal .std h2 {
+  font-family: 'League Spartan', sans-serif;
+  color: #a47823;
+  font-weight: 100;
+  font-size: 2.5em;
+}
+
+.reveal .std-mid h2 {
+  font-family: 'League Spartan', sans-serif;
+  color: #a47823;
+  font-weight: 100;
+  font-size: 2.5em;
+  position: absolute;
+  top: 300px;
+}
+
+.reveal .yellow-italics {
+  font-family: 'League Spartan', sans-serif;
+  color: #a47823;
+  font-weight: 100;
+  font-size: 2em;
+  font-style: italic;
+  position: absolute;
+  top: 100px;
+}
+
+.reveal .yellow-italics-mid {
+  font-family: 'League Spartan', sans-serif;
+  color: #a47823;
+  font-weight: 100;
+  font-size: 2em;
+  font-style: italic;
+  position: absolute;
+  top: 400px;
+}
+
+.reveal .blue-italics {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 100;
+  font-size: 0.8em;
+  font-style: italic;
+  position: absolute;
+  bottom: 20px;
+}
+
+.reveal .citation {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 100;
+  font-size: 0.5em;
+  font-style: italic;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.reveal .links {
+  font-family: 'Fira Code', monospace;
+  font-weight: 200;
+  font-size: 1.8em;
+  position: absolute;
+  top: 150px;
+}
+
+.v-center-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.reveal .final {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+
+.reveal .quote {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 100;
+  font-size: 1.2em;
+  position: absolute;
+  left: 300px;
+  right: 80px;
+  top: 180px;
+}
+
+.reveal .quote-author {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 100;
+  font-size: 0.9em;
+  position: absolute;
+  left: 300px;
+  right: 80px;
+  top: 530px;
+}
+
+.reveal .quotation-mark {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 400;
+  font-size: 8em;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
