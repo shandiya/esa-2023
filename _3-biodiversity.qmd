@@ -78,13 +78,6 @@ If we map this across the five decades, we can get a better idea of where the ex
 :::
 
 
-
-
-
-
-
-
-
 ## Protected Areas {#pa-01 .std data-menu-title="Protected Area Network"}
 
 ![](images/protected_area_map.png){.absolute left=50 top=50 width="1400"}
@@ -104,14 +97,15 @@ These datasets also cross-reference occurrences with regards to the protected ar
 [Image from the Biodiversity Heritage Library; contributed by Harvard University]{.citation}
 
 ::: {.notes}
-To show how we could use this information, I've pulled out records of the comb wrasse. It's found in coastal and offshore rocky reefs, between southern Queensland to southern New South Wales, and there are just under a thousand recirds of it in our dataset
+To show how we could use this information, I've pulled out records of the comb wrasse. It's found in coastal and offshore rocky reefs, between southern Queensland to southern New South Wales, and there are just under a thousand records of it in our dataset
 :::
-
 
 
 ## Comb Wrasse Records in Protected Areas {#pa-02 .std data-menu-title="Records in Protected Ares"}
 
-![](images/wrasse_points.png){fig-align="center"}
+![](images/wrasse_points.png){.absolute left=350 top=100 width=800} 
+
+![](images/wrasse-circle.png){.absolute top=300 left=925 width=150}
 
 ::: {.notes}
 Over 60% of those records come from protected areas. To put this in context, the protected area network only covers about 20% of the Australian landmass, which suggests that the wrasse may be dispropotionately using protected areas. More broadly, 12% of all species in our datasets have only ever been recorded in protected areas. So this can be a useful facet to include when we think about how to manage species. 
