@@ -1,3 +1,6 @@
+# NOTE: Some datasets are very large and not pushed to GitHub. Biodiversity
+# and monitoring datasets can be downloaded from ecoasets.org.au, and CAPAD 
+# marine and terestrial shpaefiles can be downloaded from data.gov.au
 
 library(galah)
 library(tidyverse)
@@ -11,18 +14,17 @@ library(monochromeR)
 library(magick)
 library(geomtextpath)
 
-
 # data ------
 # ecoassets datasets
-bd <- open_dataset("data/biodiversity.csv", format = "csv")
-events <- open_dataset("data/monitoring.csv", format = "csv")
+bd <- open_dataset("large-data/biodiversity.csv", format = "csv")
+events <- open_dataset("large-data/monitoring.csv", format = "csv")
 ibra_griis <- readRDS("data/ibra_griis.rds")
 
 #spatial
 ibra_sf <- readRDS("data/ibra_sf.rds")
 eez_sf <- readRDS("data/eez.rds")
-capad_terrestrial <- readRDS("data/capad_terrestrial.rds")
-capad_marine <- readRDS("data/capad_marine.rds")
+capad_terrestrial <- readRDS("large-data/capad_terrestrial.rds")
+capad_marine <- readRDS("large-data/capad_marine.rds")
 
 # plotting functions
 source("scripts/functions.R")
