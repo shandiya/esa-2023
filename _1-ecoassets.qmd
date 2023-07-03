@@ -4,43 +4,22 @@
 Today I'm going to talk about EcoAssets, which is a project that brings together 3 research infrastructures, the Atlas of Living Australia, the Integrated Marine Observing System, and the Terrestrial Ecosystem Research Network, to provide data in forms that support environmental reporting, such as the 2021 State of the Environment report. 
 :::
 
-## National Research Infrastructures {#3-nris .std data-menu-title="3 NRIs"}
+## 
 
+![](images/banksia.jpeg){.absolute top=10 height=800 left=310}
 
+[Image from the Biodiversity Heritage Library;, contributed by Missouri Botanical Garden, Peter H. Raven Library]{.citation}
 
 ::: {.notes}
-The 3 research infrastructures are funded to collect, manage, and organise different types of environmental data:
+The 3 research infrastructures are funded to collect, manage, and organise different types of environmental data: The ALA is Australia's national biodiversity database, bringing together data from natural history collections, researchers, government departments, community groups, and individuals. TERN measures key terrestrial ecosystem attributes at representative locations and produces ecosystem datasets at a national scale. And IMOS collects data on all aspects of the marine environment, with extensive monitoring activities in coastal and open waters. 
 :::
 
 
-## National Research Infrastructures {#3-nris-ala .std data-menu-title="ALA"}
+## 
 
-![](images/circle_ala.png){.absolute width=400 top=250 left=100}
-
-::: {.notes}
-The ALA is Australia's national biodiversity database, bringing together data from natural history collections, researchers, government departments, community groups, and individuals. 
-:::
-
-
-## National Research Infrastructures {#3-nris-tern .std data-menu-title="TERN"}
-
-![](images/circle_ala.png){.absolute width=400 top=250 left=100}
-![](images/circle_tern.png){.absolute width=400 top=250 left=600}
+[EcoAssets streamlines the flow of data from national research infrastructures into environmental reporting through versioned, aggregated datasets.]{.big-blue}
 
 ::: {.notes}
-TERN measures key terrestrial ecosystem attributes at representative locations and produces ecosystem datasets at a national scale.
-:::
-
-
-## National Research Infrastructures {#3-nris-imos .std data-menu-title="IMOS"}
-
-![](images/circle_ala.png){.absolute width=400 top=250 left=100}
-![](images/circle_tern.png){.absolute width=400 top=250 left=600}
-![](images/circle_imos.png){.absolute width=400 top=250 left=1100}
-
-::: {.notes}
-And IMOS collects data on all aspects of the marine environment, with extensive monitoring activities in coastal and open waters. 
-
 Historically, data from these activities have certainly fed into environmental reporting. Notably, the 2016 State of the Environment report referenced particular datasets from these infrastructures, but: it was difficult to access the data directly, and there wasn't any option for revisiting those datasets at a later point in time if someone wanted to review the results.  
 
 EcoAssets addresses this by streamlining the flow of data from these infrastructures into reporting, by producing aggregated datasets that can be more easily accessed and used for analysis, and versioning these at regular intervals to support longer time-series analysis. This means that all the data underpinning these reports will be available for scrutiny or re-analysis, and users can have greater confidence in the summaries that are presented. 

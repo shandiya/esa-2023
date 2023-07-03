@@ -97,6 +97,17 @@ $link-color: #7E98A8;
   top: 400px;
 }
 
+.reveal .big-blue {
+  font-family: 'League Spartan', sans-serif;
+  color: #273b50;
+  font-weight: 200;
+  font-size: 2em;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  right: 100px;
+}
+
 .reveal .blue-italics {
   font-family: 'League Spartan', sans-serif;
   color: #273b50;
@@ -114,7 +125,7 @@ $link-color: #7E98A8;
   font-size: 0.5em;
   font-style: italic;
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   right: 10px;
 }
 
