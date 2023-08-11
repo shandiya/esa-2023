@@ -1,6 +1,6 @@
 # NOTE: Some datasets are very large and not pushed to GitHub. Biodiversity
 # and monitoring datasets can be downloaded from ecoasets.org.au, and CAPAD 
-# marine and terestrial shpaefiles can be downloaded from data.gov.au
+# marine and terrestrial shapefiles can be downloaded from data.gov.au
 
 library(galah)
 library(tidyverse)
