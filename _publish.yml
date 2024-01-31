@@ -1,4 +1,4 @@
 - source: index.qmd
   quarto-pub:
     - id: 5287d3d7-afd2-444a-8311-a060856fb02d
-      url: 'https://quartopub.com/sites/shandiya/esa2023'
+      url: 'https://shandiya.quarto.pub/esa2023'
